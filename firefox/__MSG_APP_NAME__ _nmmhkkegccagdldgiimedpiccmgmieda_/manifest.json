@@ -1,0 +1,34 @@
+{
+    "app": {
+        "background": {
+            "scripts": [
+                "craw_background.js"
+            ]
+        }
+    },
+    "default_locale": "en",
+    "description": "__MSG_APP_DESCRIPTION__",
+    "display_in_launcher": false,
+    "display_in_new_tab_page": false,
+    "icons": {
+        "128": "images/icon_128.png",
+        "16": "images/icon_16.png"
+    },
+    "manifest_version": 2,
+    "minimum_chrome_version": "29",
+    "name": "__MSG_APP_NAME__",
+    "permissions": [
+        "identity",
+        "webview",
+        "https://www.google.com/",
+        "https://www.googleapis.com/*",
+        "https://payments.google.com/payments/v4/js/integrator.js",
+        "https://sandbox.google.com/payments/v4/js/integrator.js"
+    ],
+    "version": "1.0.0.6",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "__msg_app_name____nmmhkkegccagdldgiimedpiccmgmieda_@firefox"
+        }
+    }
+}

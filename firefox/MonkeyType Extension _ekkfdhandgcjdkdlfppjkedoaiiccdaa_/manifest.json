@@ -1,0 +1,32 @@
+{
+    "action": {
+        "default_icon": {
+            "128": "monkeytype-icons/serika_dark.png",
+            "16": "monkeytype-icons/serika_dark.png",
+            "48": "monkeytype-icons/serika_dark.png"
+        },
+        "default_popup": "public/view/popup.html"
+    },
+    "background": {
+        "service_worker": "public/script/background.js"
+    },
+    "description": "Help you type faster and more accurately in MonkeyType",
+    "icons": {
+        "128": "monkeytype-icons/serika_dark.png",
+        "16": "monkeytype-icons/serika_dark.png",
+        "48": "monkeytype-icons/serika_dark.png"
+    },
+    "manifest_version": 2,
+    "name": "MonkeyType Extension",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage"
+    ],
+    "version": "1.2.8",
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "monkeytype_extension__ekkfdhandgcjdkdlfppjkedoaiiccdaa_@firefox"
+        }
+    }
+}
